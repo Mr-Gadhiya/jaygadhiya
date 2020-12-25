@@ -193,6 +193,9 @@ li,a,.layer{
 .fab:nth-child(3){
     color: #f7df1e;
 }
+.fab:nth-child(4){
+    color: #e45311;
+}
 .main-container:hover .layer{
     visibility:visible;
     transform: translateY(0);
