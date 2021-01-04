@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jay Gadhiya</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> GLASSMORPHISM CARD </title>
+
+	<!-- Embedding Poppins Font From Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+	<!-- Embedding Icons From Fontawesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main-container">
-        <div class="icons">
-            <ul>
-                <li>
-                    <a href="https://mr-gadhiya.github.io/personal-site/"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="tel:+919904778523"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/mr.jay_gadhiya/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="mailto:jaygadhiya2682@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </li>
-               
-            </ul>
-        </div>
-        <div class="layer">
-            <div class="text">
-                <h4>Jay Gadhiya</h4>
-                <p>Web Developer</p>
-                <div class="skill">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-php"></i>
-                
-                </div>
-            </div>
-        </div>
-    </div>
+	
+	<div class="main-content">
+		<div class="card">
+			<img src="menu_bg.jpg	">
+			<h1>Jay Gadhiya</h1>
+			<div class="social-media-list">
+				<div class="social-media instagram">
+					<span><a href="https://www.instagram.com/mr.jay_gadhiya/"><i
+								class="fab fa-instagram"></i></a></span>
+				</div>
+				<div class="social-media facebook">
+					<span><a href="https://www.facebook.com/jay.gadhiya.370"><i
+								class="fab fa-facebook-f"></i></a></span>
+				</div>
+				<div class="social-media dribbble">
+					<span><a href="https://mr-gadhiya.github.io/personal-site/"><i
+								class="fab fa-dribbble"></i></a></span>
+				</div>
+				<div class="social-media whatsapp">
+					<span><a href="https://wa.me/919904778523"><i class="fab fa-whatsapp"></i></a></span>
+				</div>
+			</div>
+
+			<a href="https://mr-gadhiya.github.io/personal-site/" class="share-btn">Connect
+				<i class="fas fa-chevron-right"></i>
+			</a>
+		</div>
+	</div>
+	<div class="loader-container">
+		<div class="spinner"></div>
+	</div>
+	<script>
+		const loaderContainer = document.querySelector('.loader-container');
+
+		window.addEventListener('load',() =>{
+			loaderContainer.classList.add('hide');
+		})
+	</script>
 </body>
+
 </html>
