@@ -16,6 +16,16 @@
 </head>
 
 <body>
+	<div class="loader-container">
+		<div class="spinner"></div>
+	</div>
+	<script>
+		const loaderContainer = document.querySelector('.loader-container');
+
+		window.addEventListener('load',() =>{
+			loaderContainer.classList.add('hide');
+		})
+	</script>
 	
 	<div class="main-content">
 		<div class="card">
@@ -44,16 +54,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="loader-container">
-		<div class="spinner"></div>
-	</div>
-	<script>
-		const loaderContainer = document.querySelector('.loader-container');
-
-		window.addEventListener('load',() =>{
-			loaderContainer.classList.add('hide');
-		})
-	</script>
+	
 </body>
 
 </html>
