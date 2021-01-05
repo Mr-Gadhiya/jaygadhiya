@@ -98,7 +98,7 @@ a{
 
 .loader-container{
 	background-color: orangered;
-	transition: all 5.3s;
+	transition: all 3.3s;
 	position: fixed;
 	opacity: 90%;
 	top:0;
