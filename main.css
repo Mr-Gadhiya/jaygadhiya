@@ -98,9 +98,9 @@ a{
 
 .loader-container{
 	background-color: orangered;
-	transition: all 3.3s;
+	transition: all 3s;
 	position: fixed;
-	opacity: 90%;
+	opacity: 1;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -116,8 +116,8 @@ a{
 	top : calc(50% - 20px);
 	left : calc(50% - 20px);
 	/* margin: 100px auto; */
-	-webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-	animation: sk-rotateplane 1.2s infinite ease-in-out;
+	-webkit-animation: sk-rotateplane 1s infinite ease-in-out;
+	animation: sk-rotateplane 1s infinite ease-in-out;
   }
   
   @-webkit-keyframes sk-rotateplane {
