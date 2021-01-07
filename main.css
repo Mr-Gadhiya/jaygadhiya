@@ -100,7 +100,7 @@ a{
 	background-color: orangered;
 	transition: all 3.3s;
 	position: fixed;
-	opacity: 90%;
+	opacity: 1;
 	top:0;
 	left: 0;
 	opacity: 1;
